@@ -4,6 +4,6 @@
 
 class dtree: tree<dnode> {
   public:
-    ~dtree();
+    virtual ~dtree();
     ClassDef(dtree,0);
 };

@@ -4,6 +4,6 @@
 template <typename NT>
 class node {
   public:
-    ~node();
+    virtual ~node();
     ClassDef(node,0);
 };

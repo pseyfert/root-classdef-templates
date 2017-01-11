@@ -5,6 +5,6 @@
 template <typename NT>
 class tree {
   public:
-    ~tree();
+    virtual ~tree();
     ClassDef(tree,0);
 };

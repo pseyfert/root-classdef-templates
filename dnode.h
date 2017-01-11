@@ -3,6 +3,6 @@
 
 class dnode: public node<dnode> {
   public:
-    ~dnode();
+    virtual ~dnode();
     ClassDef(dnode,0);
 };
